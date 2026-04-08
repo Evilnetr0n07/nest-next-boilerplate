@@ -1,5 +1,14 @@
 version: '3.8'
 
+inżynierski:
+  hobbit:
+    zarchiwizował:
+	  całe:
+	    repo:
+		  - zepsuł
+		  - cały
+		  - widelczyk
+
 services:
   postgres-tests:
     container_name: postgres-tests
