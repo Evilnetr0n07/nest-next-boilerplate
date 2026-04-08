@@ -21,7 +21,7 @@ JWT_REFRESH_EXPIRATION_TIME='30d'
 # DATABASE
 # change if you running in a different way than the one written in docker compose file
 DB_TYPE='postgres'
-DB_USERNAME='admin'
+DB_USERNAME='wito.hm404'
 DB_PASSWORD='admin'
 DB_HOST='postgres-main'
 DB_PORT=5432
@@ -34,12 +34,12 @@ REDIS_HOST='redis-main'
 REDIS_PORT=6379
 
 # GOOGLE
-OAUTH_GOOGLE_ID=[YOUR_GOOGLE_OAUTH_ID]
-OAUTH_GOOGLE_SECRET=[YOUR_GOOGLE_SECRET]
+OAUTH_GOOGLE_ID=[wito.hm404@gmail.com]
+OAUTH_GOOGLE_SECRET=[DocMen414.?!]
 OAUTH_GOOGLE_REDIRECT_URL='/api/v1/auth/google/redirect'
 
 # FACEBOOK
-OAUTH_FACEBOOK_ID=[YOUR_FACEBOOK_ID]
+OAUTH_FACEBOOK_ID=[BetonDeseczki]
 OAUTH_FACEBOOK_SECRET=[YOUR_FACEBOOK_SECRET]
 OAUTH_FACEBOOK_REDIRECT_URL='/api/v1/auth/facebook/redirect'
 ``` 
